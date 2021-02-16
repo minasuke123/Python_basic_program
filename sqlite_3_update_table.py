@@ -11,7 +11,7 @@ def update_task(conn, task):
 
     sql = '''UPDATE tasks
             SET priority = ?,
-                begin_date = ?
+                begin_date = ?,
                 end_date = ?
             WHERE id = ?'''
 
